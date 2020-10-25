@@ -10,6 +10,16 @@ This repository contains the fine-tuned Multilingual Bidirectional Encoder Repre
 | M-USE<sub>CNN</sub>-Toxic | 89.69% | 90.14% | 89.91% |
 | M-USE<sub>Trans</sub>-Toxic | 90.85% | 91.92% | 91.35% |
 
+Citation:
+```
+@INPROCEEDINGS{Smetanin2020Toxic,
+  author={Sergey Smetanin},
+  booktitle={Computational Linguistics and Intellectual Technologies: Proceedings of the International Conference “Dialogue 2020”},
+  title={Toxic Comments Detection in Russian},
+  year={2020}
+}
+```
+
 ## Toxic Comments Dataset
 
 [Kaggle Russian Language Toxic Comments Dataset](https://www.kaggle.com/blackmoon/russian-language-toxic-comments) is the collection of annotated comments from [2ch](https://2ch.hk/) and [Pikabu](https://pikabu.ru/), which was published on Kaggle in 2019. It consists of 14412 comments, where 4826 texts were labeled as toxic, and 9586 were labeled as non-toxic. The average length of comments is ~175 characters; minimum length is 21, and the maximum is 7403. 

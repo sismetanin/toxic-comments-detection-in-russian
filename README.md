@@ -1,6 +1,8 @@
 # Toxic Comments Detection in Russian
 
-This repository contains the fine-tuned Multilingual Bidirectional Encoder Representations from Transformers (M-BERT) (Devlin et al., 2019), ruBERT (Kuratov et al., 2019), and two versions of Multilingual Universal Sentence Encoder (M-USE) (Yang et al., 2019) for toxic comments detection in Russian. As a source of data, we utilized anonymously published [Kaggle dataset](https://www.kaggle.com/blackmoon/russian-language-toxic-comments) and additionally validated its annotation quality.  
+This repository contains the fine-tuned Multilingual Bidirectional Encoder Representations from Transformers (M-BERT) (Devlin et al., 2019), ruBERT (Kuratov et al., 2019), and two versions of Multilingual Universal Sentence Encoder (M-USE) (Yang et al., 2019) for toxic comments detection in Russian. As a source of data, we utilized anonymously published [Kaggle dataset](https://www.kaggle.com/blackmoon/russian-language-toxic-comments) and additionally validated its annotation quality. 
+
+
 
 | System  | P | R | F<sub>1</sub> | 
 | ------------- | ------------- | ------------- | ------------- | 
@@ -10,6 +12,7 @@ This repository contains the fine-tuned Multilingual Bidirectional Encoder Repre
 | M-USE<sub>CNN</sub>-Toxic | 89.69% | 90.14% | 89.91% |
 | M-USE<sub>Trans</sub>-Toxic | 90.85% | 91.92% | 91.35% |
 
+The paper with a comprehensive description of these models can be found [here](http://www.dialog-21.ru/media/5017/smetaninsi-029.pdf).
 Citation:
 ```
 @INPROCEEDINGS{Smetanin2020Toxic,

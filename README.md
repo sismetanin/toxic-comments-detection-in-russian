@@ -12,7 +12,7 @@ This repository contains the fine-tuned Multilingual Bidirectional Encoder Repre
 | M-USE<sub>CNN</sub>-Toxic | 89.69% | 90.14% | 89.91% |
 | M-USE<sub>Trans</sub>-Toxic | 90.85% | 91.92% | 91.35% |
 
-The paper with a comprehensive description of these models can be found [here](http://www.dialog-21.ru/media/5017/smetaninsi-029.pdf).
+The paper with a comprehensive description of these models can be found [here](http://www.dialog-21.ru/media/5181/smetaninsi-029.pdf).
 Citation:
 ```
 @INPROCEEDINGS{Smetanin2020Toxic,

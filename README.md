@@ -19,7 +19,8 @@ Citation:
   author={Sergey Smetanin},
   booktitle={Computational Linguistics and Intellectual Technologies: Proceedings of the International Conference “Dialogue 2020”},
   title={Toxic Comments Detection in Russian},
-  year={2020}
+  year={2020},
+  doi={10.28995/2075-7182-2020-19-1149-1159}
 }
 ```
 
@@ -28,11 +29,7 @@ Citation:
 [Kaggle Russian Language Toxic Comments Dataset](https://www.kaggle.com/blackmoon/russian-language-toxic-comments) is the collection of annotated comments from [2ch](https://2ch.hk/) and [Pikabu](https://pikabu.ru/), which was published on Kaggle in 2019. It consists of 14412 comments, where 4826 texts were labeled as toxic, and 9586 were labeled as non-toxic. The average length of comments is ~175 characters; minimum length is 21, and the maximum is 7403. 
 
 ## Trained Models
-To download fine-tuned models for Russian, please follow the link [https://yadi.sk/d/nmGpvIrzwdDC-Q](https://yadi.sk/d/nmGpvIrzwdDC-Q).
-* M-BERT-Base-128-FiT-KRLRCD – Multilingual BERT<sub>Base</sub> fine-tuned on Kaggle Russian Language Toxic Comments Dataset.
-* ruBERT-Base-128-FiT-KRLRCD – ruBERT fine-tuned on Kaggle Russian Language Toxic Comments Dataset.
-* M-USE-CNN-FiT-KRLRCD – Multilingual USE<sub>CNN</sub> fine-tuned on Kaggle Russian Language Toxic Comments Dataset.
-* M-USE-Trans-FiT-KRLRCD – Multilingual USE<sub>Trans</sub> fine-tuned on Kaggle Russian Language Toxic Comments Dataset.
+Fine-tuned models are available on [HuggingFace](https://huggingface.co/sismetanin/rubert-toxic-pikabu-2ch). Also, you can download models using the following link [https://yadi.sk/d/nmGpvIrzwdDC-Q](https://yadi.sk/d/nmGpvIrzwdDC-Q). 
 
 ## References
 1. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and 950 Kristina Toutanova. 2019. BERT: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 4171–4186, Minneapolis, Minnesota. Association for Computational Linguistics.
